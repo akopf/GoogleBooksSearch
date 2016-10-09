@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingEnd="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingStart="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/page_title"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="24dp"       />
+
+    <EditText
+        android:id="@+id/text_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/et_hint"
+        android:inputType="textCapWords"
+        android:padding="8dp"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/bt_search"
+        android:textSize="16dp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorSearchReseult"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:orientation="vertical"/>
+
+</LinearLayout>
